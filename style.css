@@ -31,13 +31,11 @@ body {
 
 /*========== REUSABLE CLASSES ==========*/
 .container {
-    width: 250px;
-    height: max-content;
+    width: 260px;
+    height: 410px;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
-    justify-content: center;
     align-items: center;
     margin: 10rem auto;
     padding: 10px;
@@ -45,20 +43,22 @@ body {
 }
 
 .qr-code {
-    width: 225px;
+    width: 240px;
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 .qr-text {
     font-weight: 700;
+    padding-inline: 1rem;
+    margin-bottom: .75rem;
 }
 
 .qr-subtext {
     font-weight: 400;
     font-size: 12px;
     color: var(--grayish-blue);
-    padding-inline: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-inline: 1.5rem;
 }
 
 .attribution {
