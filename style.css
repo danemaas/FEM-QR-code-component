@@ -1,0 +1,71 @@
+/*========== GOOGLE FONT ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*========== VARIABLES ==========*/
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --desktop: 1440px;
+    --mobile: 375px;
+
+    --text-fs: 15px
+}
+
+/*========== BASE ==========*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: var(--text-fs);
+    background-color: var(--light-gray);
+    text-align: center;
+    height: 100vh;
+}
+
+/*========== REUSABLE CLASSES ==========*/
+.container {
+    width: 250px;
+    height: max-content;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.qr-code {
+    width: 225px;
+    border-radius: 10px;
+}
+
+.qr-text {
+    font-weight: 700;
+}
+
+.qr-subtext {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--grayish-blue);
+    padding-inline: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
